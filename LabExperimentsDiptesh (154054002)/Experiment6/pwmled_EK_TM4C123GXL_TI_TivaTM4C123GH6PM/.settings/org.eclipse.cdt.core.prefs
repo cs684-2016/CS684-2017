@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.229605642/XDCTOOLS_JAVA_HOME/delimiter=\:
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.229605642/XDCTOOLS_JAVA_HOME/operation=replace
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.229605642/XDCTOOLS_JAVA_HOME/value=/usr/lib/jvm/java-8-oracle
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.229605642/append=true
+environment/project/com.ti.ccstudio.buildDefinitions.TMS470.Debug.229605642/appendContributed=true

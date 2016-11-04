@@ -1,0 +1,37 @@
+Step 1:
+- Start RasPi and connect it to router using a LAN cable
+- Find out the IP by logging into router admin interface or connecting RasPi to
+  monitor and keyboard
+- Connect to RasPi from Windows (using cygwin) / Linux through SSH
+- Set up Wi-Fi configuration by editing /etc/wpa-supplicant/wpa-supplicant.conf file
+- Restart RasPi by typing "sudo shutdown -r now" in terminal
+- Disconnect LAN cable connecting router and RasPi
+- Find out RasPi IP using the same method above
+- SSH into RasPi
+
+Implementaion I::
+Step 1:
+- Follow the instruction specified in README file loacated at 
+  "https://github.com/mikebrady/shairport-sync/blob/master/README.md"
+  to install Shairport-sync software in RasPi
+
+Step 2:
+- Open iTunes from Windows / iOS or Allconnect in Android
+- Connect to the same network as RasPi
+- Choose which speakers to use from iTunes application
+- Play the audio
+- It should work.
+
+Implementation II::
+Step 1:
+- SSH into RasPi following the method mentioned above
+- Download file from github using the command
+  "git clone https://github.com/bharath5412/RAAGALinuxServer.git"
+- Go the to directory where the server is installed
+- Start the server using the command "./RAAGAServer sample.WAV"
+
+Step2:
+- Download the windows executable file from the follwing link
+  "https://www.dropbox.com/s/z712w9o8utckej6/RAAGAWindowsClient.exe?dl=0"
+- Run the executable file
+- Play the audio / video file on Windows system
